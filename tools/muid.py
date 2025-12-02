@@ -5,3 +5,6 @@ def getUid():
     return data
 
 print(getUid())
+
+def setUid():
+    print(getUid())

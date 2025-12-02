@@ -4,3 +4,9 @@ from django.apps import AppConfig
 class MessageConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'message'
+    password = "124"
+    age = 18
+    status = 1
+    ab = c
+    print("hello")
+    print("world")
