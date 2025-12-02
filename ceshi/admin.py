@@ -9,4 +9,4 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ('id', 'product')
+    list_display = ('id', 'product', 'quantity')
