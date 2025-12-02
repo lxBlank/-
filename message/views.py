@@ -26,6 +26,7 @@ class MessageViewSet(viewsets.ViewSet):
             messageInfo.save()
             # 数据存入redis
             r = redis.Redis(connection_pool=redis_pool.pool, decode_responses=True)
+            # ok
             rdata = r.get(user.uid)
             if rdata:
                 rdata = rdata.decode('utf-8')
