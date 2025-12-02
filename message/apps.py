@@ -8,3 +8,4 @@ class MessageConfig(AppConfig):
     age = 18
     status = 1
     ab = c
+    print("hello")
