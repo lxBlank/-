@@ -12,5 +12,6 @@ from community import views
 
 
 urlpatterns = [
+    # to_do
     path('audio/', views.CommunityViewSet.as_view({'post': 'getAudio'})),
 ]
